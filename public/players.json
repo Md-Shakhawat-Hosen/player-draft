@@ -1,0 +1,60 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Mushfiqur Rahim",
+      "image": "https://i.ibb.co/KWbhJcM/gettyimages-99034838-612x612.jpg",
+      "salary": "1200",
+      "description": "Mushfiqur Rahim is a veteran Bangladeshi cricketer known for his exceptional wicket-keeping skills and batting prowess. He has been a consistent performer for the national team."
+    },
+    {
+      "id": 2,
+      "name": "Shakib Al Hasan",
+      "image": "https://i.ibb.co/gRVHBtS/gettyimages-1434948635-612x612.jpg",
+      "salary": "15000",
+      "description": "Shakib Al Hasan is an all-rounder and one of the best cricketers Bangladesh has produced. He is known for his batting, left-arm spin, and fielding abilities."
+    },
+    {
+      "id": 3,
+      "name": "Md. Ruble Ahmed",
+      "image": "https://i.ibb.co/zVfGTcM/gettyimages-183619273-612x612.jpg",
+      "salary": "11000",
+      "description": "Md. Ruble Ahmed is an explosive opening batsman who has been the backbone of Bangladesh's batting lineup for many years. He holds numerous records for his country."
+    },
+    {
+      "id": 4,
+      "name": "Mahmudulla Ryad",
+      "image": "https://i.ibb.co/GdnPFVm/gettyimages-466030480-612x612.jpg",
+      "salary": "10000",
+      "description": "Mahmudulla Ryad, also known as the 'Fizz,' is a talented left-arm fast bowler who made an immediate impact on the international scene with his unique cutters."
+    },
+    {
+      "id": 5,
+      "name": "Mustafizur Rahman",
+      "image": "https://i.ibb.co/bFBk2pt/gettyimages-1437622839-612x612.jpg",
+      "salary": "14000",
+      "description": "Mustafizur Rahman is a bowler and off-spin bowler known for his calm and composed temperament, especially in pressure situations."
+    },
+    {
+      "id": 6,
+      "name": "Mehidy Hasan Miraz",
+      "image": "https://i.ibb.co/qsbj7RJ/gettyimages-1153241451-612x612.jpg",
+      "salary": "11000",
+      "description": "Mehidy Hasan Miraz is a promising young off-spin bowler who has shown great potential in international cricket with both bat and ball."
+    },
+    {
+      "id": 7,
+      "name": "Tamim Iqbal",
+      "image": "https://i.ibb.co/WHRtmhF/gettyimages-515397014-612x612.jpg",
+      "salary": "18000",
+      "description": "Tamim Iqbal is an aggressive wicketkeeper-batsman who has the ability to provide quick starts at the top of the order for Bangladesh."
+    },
+    {
+      "id": 8,
+      "name": "Taskin Ahmed",
+      "image": "https://i.ibb.co/1zgS0zM/gettyimages-1436041107-612x612.jpg",
+      "salary": "12000",
+      "description": "Taskin Ahmed is a pace bowler known for his raw pace and the ability to generate bounce. He is an exciting prospect for Bangladesh's fast bowling department."
+    }
+  ]
+}
