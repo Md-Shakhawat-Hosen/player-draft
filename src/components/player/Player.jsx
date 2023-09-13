@@ -8,7 +8,7 @@ const Player = ({ player, handlePlayerAddToCart }) => {
     <div className=" space-y-3">
       <div className="bg-slate-300 rounded-md">
         <img
-          className="p-2 rounded-lg w-full h-[300px] "
+          className="p-2 rounded-xl w-full h-[300px] "
           src={image}
           alt=""
         />

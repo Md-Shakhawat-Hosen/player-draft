@@ -15,6 +15,8 @@ function App() {
   
   const handlePlayerAddToCart = (player) => {
     const isExitDoublePlayer = cart.find(item => item.id === player.id);
+
+
     let totalCost = parseInt(player.salary)
 
     if (isExitDoublePlayer) {
@@ -23,7 +25,7 @@ function App() {
     }
      else {
      
-    cart.forEach(item => (
+       cart.forEach(item => (
        totalCost += parseInt(item.salary)
        
     ))
