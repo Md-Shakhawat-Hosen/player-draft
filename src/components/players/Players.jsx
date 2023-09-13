@@ -15,9 +15,9 @@ const Players = ({ handlePlayerAddToCart }) => {
       .then((data) => setPlayers(data.players));
   }, []);
   return (
-    <div className="w-3/4">
+    <div className="lg:w-3/4 absolute top-[400px] lg:top-0">
       <h1 className='font-bold text-center mb-6'>Total Players: {players.length}</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 lg:p-0">
         {players.map((player) => (
           <Player
             key={player.id}

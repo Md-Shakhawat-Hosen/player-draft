@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <div className="max-w-screen-xl mx-auto px-4">
-        <div className="flex">
+        <div className="flex lg:relative">
           <Players handlePlayerAddToCart={handlePlayerAddToCart}></Players>
           <Cart cart={cart} cost={cost} remainingCost={remainingCost}></Cart>
         </div>
