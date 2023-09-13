@@ -35,7 +35,7 @@ const Header = () => {
             Contact us
           </a>
         </div>
-        <img className="w-[50px]" src="../../../public/images/boy1.png" alt="" />
+        <img className="w-[50px]" src="../images/boy1.png" alt="" />
       </div>
     );
 };
