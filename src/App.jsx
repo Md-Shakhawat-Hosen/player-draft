@@ -5,6 +5,8 @@ import Cart from './components/cart/Cart'
 import Header from './components/header/Header'
 import Players from './components/players/Players'
 
+import swal from "sweetalert";
+
 function App() {
 
   const [cart, setCart] = useState([]);
@@ -14,8 +16,10 @@ function App() {
   const handlePlayerAddToCart = (player) => {
     const isExitDoublePlayer = cart.find(item => item.id === player.id);
     let totalCost = parseInt(player.salary)
+
     if (isExitDoublePlayer) {
-      alert(`${player.name} is already booked`);
+      // alert(`${player.name} is already booked`);
+      swal(`${player.name} is Already Booked`);
     }
      else {
      
@@ -25,10 +29,17 @@ function App() {
     ))
     
     if (totalCost > 50000) {
-      alert('You can not draft player. your remaining balance is insufficient')
+      // alert('You can not draft player. your remaining balance is insufficient')
+      swal("You can not draft player. your remaining balance is insufficient");
       
     }
     else {
+      swal({
+        title: "Good job!",
+        text: `You added ${player.name}`,
+        icon: "success",
+        button: "Aww yes!",
+      });
       let totalRemaing = remainingCost - parseInt(player.salary);
       //  let totalRemaing = 50000 - totalCost;
         setCart([...cart, player]);
